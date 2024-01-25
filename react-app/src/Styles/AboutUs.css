@@ -18,21 +18,12 @@ html {
     padding: 0 8px;
 }
 
-/* .UScard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-} */
-
 .USabout-section {
     padding: 50px;
     text-align: center;
     background-color: #474e5d;
     color: white;
 }
-
-/* .UScontainer {
-    padding: 0 16px;
-} */
 
 .UScard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const getAllStocks = async () => {
-  const apiKey = '942d8f501f25a9ffeacffaafbbdd8270';
+  const apiKey = 'xxx';
   const url = `https://financialmodelingprep.com/api/v3/available-traded/list?apikey=${apiKey}`;
 
   try {
@@ -13,7 +13,7 @@ export const getAllStocks = async () => {
 };
 
 export const getAStock = async (query) => {
-  const apiKey = '942d8f501f25a9ffeacffaafbbdd8270';
+  const apiKey = 'xxx';
   const url = `https://financialmodelingprep.com/api/v3/search-ticker?exchange=${query}&apikey=${apiKey}`;
 
   try {
@@ -26,7 +26,7 @@ export const getAStock = async (query) => {
 };
 
 export const getDailyChartData = async (stocksymbol) => {
-  const apiKey = '942d8f501f25a9ffeacffaafbbdd8270';
+  const apiKey = 'xxx';
   const url = `https://financialmodelingprep.com/api/v3/historical-price-full/${stocksymbol}?apikey=${apiKey}`;
 
   try {
@@ -38,7 +38,7 @@ export const getDailyChartData = async (stocksymbol) => {
 }
 
 const basePath = "https://finnhub.io/api/v1";
-const apiKey = "clkf2l1r01qso7g5nnmgclkf2l1r01qso7g5nnn0";
+const apiKey = "xxx";
 /**
  * Searches best stock matches based on a user's query
  * @param {string} query - The user's query, e.g. 'fb'
